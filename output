@@ -1,0 +1,298 @@
+*******************Online Claim Registration System***************************
+LOGIN:
+
+Enter User Name:
+Mukul
+Enter Password:
+Mukul123
+Access granted
+Logged In As CLAIM ADJUSTER
+
+Welcome Mukul
+
+*****************CLAIM ADJUSTER MENU**********************
+
+1.New Profile Creation
+2.Claim Creation
+3.View Claim
+4.Report Generation
+5.LOGOUT
+6.Exit
+Enter your Choice
+1
+Enter username or enter 0 to go back to previous menu
+Soumya
+Enter password or enter 0 to go back to previous menu
+Soumya123
+Enter role code or enter 0 to go back to previous menu:
+1.CLAIM ADJUSTER
+2.CLAIM HANDLER
+3.INSURED
+Enter your choice:
+3
+Profile created successfully with username :Soumya
+
+*****************CLAIM ADJUSTER MENU**********************
+
+1.New Profile Creation
+2.Claim Creation
+3.View Claim
+4.Report Generation
+5.LOGOUT
+6.Exit
+Enter your Choice
+2
+
+Policy Number       Account Number       Policy Premium          Policy Type
+     10027           1870011516              25000.0           AUTOMOBILE
+     10028           1870011517              35000.0              MEDICAL
+     10029           1870011519              29000.0           AUTOMOBILE
+     10030           1870011520              30000.0              MEDICAL
+     10031           1870011518              30000.0              MEDICAL
+     10041           1870011521              35000.0              MEDICAL
+Select Policy Number from above list or enter 0 to go back to previous menu:
+10041
+Claim already created for the policy number:10041
+
+*****************CLAIM ADJUSTER MENU**********************
+
+1.New Profile Creation
+2.Claim Creation
+3.View Claim
+4.Report Generation
+5.LOGOUT
+6.Exit
+Enter your Choice
+3
+
+CLAIM NUMBER         CLAIM REASON ACCIDENT LOCATION STREET        ACCIDENT CITY       ACCIDENT STATE         ACCIDENT ZIP           CLAIM TYPE        POLICY NUMBER
+      5005             Accident                 MIPL              Chennai           Tamil Nadu                12345             Accident                10027
+
+      5006             Accident      Cannaught Place                Delhi                Delhi                23456   Natural Calamities                10028
+
+      5007          Heartattack           Nalasupara               Mumbai          Maharashtra                25586             Accident                10030
+
+      5008         Car Accident          Dogra lines               Meerut        Uttar Pradesh                25002             Accident                10031
+
+      5009             Accident              Lucknow              Lucknow        Uttar Pradesh                25293      Property damage                10029
+
+      5021       Bypass Surgery               Sipcot              Chennai           Tamil Nadu                12345             Accident                10041
+
+*****************CLAIM ADJUSTER MENU**********************
+
+1.New Profile Creation
+2.Claim Creation
+3.View Claim
+4.Report Generation
+5.LOGOUT
+6.Exit
+Enter your Choice
+4
+********************Report Generation Screen**********************
+
+POLICY NUMBER         CLAIM NUMBER         CLAIM REASON           CLAIM TYPE
+     10027                 5005             Accident                       Accident
+
+     10028                 5006             Accident             Natural Calamities
+
+     10030                 5007          Heartattack                       Accident
+
+     10031                 5008         Car Accident                       Accident
+
+     10029                 5009             Accident                Property damage
+
+     10041                 5021       Bypass Surgery                       Accident
+
+Enter policy number to view detailed report or enter 0 to go back to previous menu:
+10031
+******************Detailed view of claim with policy number:10031 ***********************
+
+ClaimNumber=5008
+ClaimReason=Car Accident
+AccidentLocationStreet=Dogra lines
+AccidentCity=Meerut
+AccidentState=Uttar Pradesh
+AccidentZip=25002
+ClaimType=Accident
+PolicyNumber=10031
+
+Was the police verification done in hospital?
+yes
+Do you want full claim amount reimbursement?
+yes
+Do you have the desired bills?
+yes
+
+*****************CLAIM ADJUSTER MENU**********************
+
+1.New Profile Creation
+2.Claim Creation
+3.View Claim
+4.Report Generation
+5.LOGOUT
+6.Exit
+Enter your Choice
+5
+You have successfully logged off from your account
+*******************Online Claim Registration System***************************
+LOGIN:
+
+Enter User Name:
+Ashwini
+Enter Password:
+Ashwini123
+Access granted
+Logged In As CLAIM HANDLER
+
+Welcome Ashwini
+
+
+Your customers details:
+
+Account Number         Insured Name            User Name
+1870011516               Harish              Ashwini
+1870011517            Rohandeep              Ashwini
+1870011520            Abhimanyu              Ashwini
+
+***************CLAIM HANDLER MENU***************
+
+1.Claim Creation
+2.View Claim
+3.Exit
+4.LOGOUT
+Enter your Choice
+1
+Enter Account Number or enter 0 to go back to previous menu:
+1870011516
+
+Policy Number       Policy Premium          Policy Type
+     10027              25000.0           AUTOMOBILE
+
+Select Policy Number from above list or enter 0 to go back to previous menu: 
+10027
+Claim already created for the policy number:10027
+
+Select Policy Number from above list or enter 0 to go back to previous menu: 
+0
+
+
+Your customers details:
+
+Account Number         Insured Name            User Name
+1870011516               Harish              Ashwini
+1870011517            Rohandeep              Ashwini
+1870011520            Abhimanyu              Ashwini
+
+***************CLAIM HANDLER MENU***************
+
+1.Claim Creation
+2.View Claim
+3.Exit
+4.LOGOUT
+Enter your Choice
+2
+1.View All Claims
+2.View Claim of a specific customer
+3. Go back to previous menu
+Enter a choice:
+1
+Claims for account number:1870011516
+
+ClaimNumber=5005
+ClaimReason=Accident
+AccidentLocationStreet=MIPL
+AccidentCity=Chennai
+AccidentState=Tamil Nadu
+AccidentZip=12345
+ClaimType=Accident
+PolicyNumber=10027
+
+Claims for account number:1870011517
+
+ClaimNumber=5006
+ClaimReason=Accident
+AccidentLocationStreet=Cannaught Place
+AccidentCity=Delhi
+AccidentState=Delhi
+AccidentZip=23456
+ClaimType=Natural Calamities
+PolicyNumber=10028
+
+Claims for account number:1870011520
+
+ClaimNumber=5007
+ClaimReason=Heartattack
+AccidentLocationStreet=Nalasupara
+AccidentCity=Mumbai
+AccidentState=Maharashtra
+AccidentZip=25586
+ClaimType=Accident
+PolicyNumber=10030
+
+
+
+Your customers details:
+
+Account Number         Insured Name            User Name
+1870011516               Harish              Ashwini
+1870011517            Rohandeep              Ashwini
+1870011520            Abhimanyu              Ashwini
+
+***************CLAIM HANDLER MENU***************
+
+1.Claim Creation
+2.View Claim
+3.Exit
+4.LOGOUT
+Enter your Choice
+4
+You have successfully logged off from your account.
+*******************Online Claim Registration System***************************
+LOGIN:
+
+Enter User Name:
+Harish
+Enter Password:
+Harish123
+Access granted
+Logged In As INSURED
+
+Welcome Harish
+
+***************INSURED MENU***************
+
+1.Claim Creation
+2.View Claim
+3.LOGOUT
+4.Exit
+Enter your Choice
+1
+
+Policies you have:
+Policy Number          Policy Type       Policy Premium
+     10027           AUTOMOBILE              25000.0
+Select Policy Number from above list or enter 0 to go back to previous menu: 
+10027
+Claim already created for the policy number:10027
+
+***************INSURED MENU***************
+
+1.Claim Creation
+2.View Claim
+3.LOGOUT
+4.Exit
+Enter your Choice
+2
+
+CLAIM_NUMBER         CLAIM REASON ACCIDENT LOCATION STREET        ACCIDENT CITY       ACCIDENT STATE         ACCIDENT ZIP           CLAIM TYPE        POLICY NUMBER
+      5005             Accident                 MIPL              Chennai           Tamil Nadu                12345             Accident                10027
+
+***************INSURED MENU***************
+
+1.Claim Creation
+2.View Claim
+3.LOGOUT
+4.Exit
+Enter your Choice
+4
+Thank you,visit again
